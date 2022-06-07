@@ -9,7 +9,7 @@ class Trie {
     boolean endOfWord;
 
     Node() {
-      references = new Node[26];
+      references = new Node[26];;
       endOfWord = false;
     }
 
